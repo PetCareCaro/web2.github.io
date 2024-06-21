@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+.logo {
+    text-align: center;
+}
+.logo img{
+    height: 70px;
+    align-content: center;
+}
+nav {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 32%;
+    font-weight: bold;
+    font-size: 20px;
+}       
+nav a {
+    padding-right: 50px;
+}                     
+a:hover {
+    color:#FFA80A;
+}          
+a {
+    color: #231d1e;
+    text-decoration: none;
+    font-family: "Antonio", sans-serif;
+    font-weight: 1000;
+}  
+.encabezado {
+    background-image: url(../img/encabezado3.png);
+    background-size: 1870px;
+    padding: 855px 200px;
+    padding-bottom: 0%;
+    background-repeat: no-repeat;
+    margin-top: -200px;   
+    margin-left: -20px;
+}
+.encabezado h1 {
+    color: #F4F3F1;
+    font-size: 150px;
+    margin-top: -440px;
+    margin-left: 960px;
+    line-height: 160px;
+    font-family: "Antonio", sans-serif;
+    text-align: center;
+    animation: arriba 2s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes arriba {
+    from {
+        transform: translatey(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}
+.medicina h2{
+    color: #881811;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 850px;
+    margin-top: -620px;
+    font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 0px;
+margin-bottom: 0%;
+line-height: 50px;
+}
+.medicina p {
+    color: #231d1e;
+    font-size: 25px;
+    margin-left: 850px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+}
+.medicina img {
+    width: 1500px;
+    margin: 55px;
+}
+.cirujano h2{
+    color: #881811;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 850px;
+    margin-top: -620px;
+    font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 0px;
+margin-bottom: 0%;
+line-height: 50px;
+}
+.cirujano p {
+    color: #231d1e;
+    font-size: 25px;
+    margin-left: 850px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+}
+.cirujano img {
+    width: 1500px;
+    margin: 55px;
+    margin-top: 300px;
+}
+.cardiologa h2{
+    color: #881811;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 850px;
+    margin-top: -620px;
+    font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 0px;
+margin-bottom: 0%;
+line-height: 50px;
+}
+.cardiologa p {
+    color: #231d1e;
+    font-size: 25px;
+    margin-left: 850px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+}
+.cardiologa img {
+    width: 1500px;
+    margin: 55px;
+    margin-top: 300px;
+}
+.dermatologo h2{
+    color: #881811;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 850px;
+    margin-top: -620px;
+    font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 0px;
+margin-bottom: 0%;
+line-height: 50px;
+}
+.dermatologo p {
+    color: #231d1e;
+    font-size: 25px;
+    margin-left: 850px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+}
+.dermatologo img {
+    width: 1500px;
+    margin: 55px;
+    margin-top: 300px;
+}
+.trazado img{
+    width: 131.6%;
+    margin-left: -255px;
+    margin-top: 250px;
+}
+.footer {
+    background-image: url(../img/footer2.png);
+    padding: 115px 926px;
+    background-repeat: no-repeat;
+    margin-top: -20px;  
+    margin-left: -185px;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.logo1 img {
+    height: 100px;
+    align-content: center;
+    margin-left: -130px;
+}
+.redes img {
+    height: 70px;
+    margin-left: -50px;
+}
+footer p{
+    color: #848079;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -85px;
+}

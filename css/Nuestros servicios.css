@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+.logo {
+    text-align: center;
+}
+.logo img{
+    height: 70px;
+    align-content: center;
+}
+nav {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 32%;
+    font-weight: bold;
+    font-size: 20px;
+}       
+nav a {
+    padding-right: 50px;
+}                     
+a:hover {
+    color:#FFA80A;
+}          
+a {
+    color: #231d1e;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 1000;
+}  
+.encabezado {
+    background-image: url(../img/encabezado2.png);
+    background-size: 1870px;
+    padding: 855px 200px;
+    padding-bottom: 0%;
+    background-repeat: no-repeat;
+    margin-top: -200px;   
+    margin-left: -20px;
+}
+.encabezado h1 {
+    color: #F4F3F1;
+    font-size: 150px;
+    margin-top: -440px;
+    margin-left: 890px;
+    line-height: 160px;
+    font-family: "Antonio", sans-serif;
+    animation: arriba 2s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes arriba {
+    from {
+        transform: translatey(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}
+.consultas {
+    color: #231d1e;
+    font-size: 35px;
+    margin-left: 150px;
+    text-align: justify;
+    margin-left: 700px;
+    margin-top: 500px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0%;
+    font-size: 28px;
+    animation: mover-izquierda-derecha 2s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.il, ul {
+    list-style-type:disc;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0%;
+    animation: mover-izquierda-derecha 2s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.consultas h1{
+    color:#881811;
+    font-size: 80px;
+    margin-top: 650px;
+    margin-left: -8px;
+font-weight: bold;
+font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 2px;
+margin-bottom: 0%;
+animation: mover-izquierda-derecha 2s 1;
+animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha {
+from {
+    transform: translateX(-100px);
+}
+to {
+    transform: translateX(10px);
+}
+}
+.dog1 img{
+width: 750px;
+margin-top: -650px;
+margin-left: -150px;
+}
+.trazado img{
+    width: 131.6%;
+    margin-left: -255px;
+    margin-top: -10px;
+}
+.vacunaciones {
+    color: #231d1e;
+    font-size: 35px;
+    margin-left: 150px;
+    text-align: justify;
+    margin-left: 100px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0%;
+    font-size: 28px;
+    animation: mover-izquierda-derecha 5s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.il, ul {
+    list-style-type:disc;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0%;
+    font-size: 25px;
+    animation: mover-izquierda-derecha 5s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.vacunaciones h2{
+    color:#881811;
+    font-size: 80px;
+    margin-top: 105px;
+font-weight: bold;
+font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 2px;
+margin-bottom: 0%;
+animation: mover-izquierda-derecha 5s 1;
+animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha {
+from {
+    transform: translateX(-100px);
+}
+to {
+    transform: translateX(10px);
+}
+}
+.gato1 img{
+width: 650px;
+margin-top: -900px;
+margin-left: 850px;
+}
+.trazado1 img{
+    width: 131.6%;
+    margin-left: -255px;
+    margin-top: -10px;
+}
+.emergencias {
+    color: #231d1e;
+    margin-left: 150px;
+    text-align: justify;
+    margin-left: 700px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10%;
+    font-size: 28px;
+    animation: mover-izquierda-derecha 10s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.il, ul {
+    list-style-type:disc;
+    animation: mover-izquierda-derecha 10s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.emergencias h3{
+    color:#881811;
+    font-size: 80px;
+    margin-left: -8px;
+font-weight: bold;
+font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 2px;
+margin-bottom: 0%;
+animation: mover-izquierda-derecha 10s 1;
+animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha {
+from {
+    transform: translateX(-100px);
+}
+to {
+    transform: translateX(10px);
+}
+}
+.gato2 img{
+width: 655px;
+margin-top: -1000px;
+margin-left: -150px;
+}
+.trazado img{
+    width: 131.6%;
+    margin-left: -255px;
+    margin-top: -10px;
+}
+.medicina {
+    color: #231d1e;
+    font-size: 35px;
+    margin-left: -150px;
+    text-align: justify;
+    margin-left: 100px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0%;
+    font-size: 28px;
+    animation: mover-izquierda-derecha 15s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.il, ul {
+    list-style-type:disc;
+    animation: mover-izquierda-derecha 15s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.medicina h4{
+    color:#881811;
+    font-size: 80px;
+    margin-top: 105px;
+font-weight: bold;
+font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 2px;
+margin-bottom: 0%;
+animation: mover-izquierda-derecha 15s 1;
+animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha {
+from {
+    transform: translateX(-100px);
+}
+to {
+    transform: translateX(10px);
+}
+}
+.conejo img{
+width: 750px;
+margin-top: -650px;
+margin-left: 918px;
+}
+.trazado img{
+    width: 131.6%;
+    margin-left: -255px;
+}
+.peluqueria {
+    color: #231d1e;
+    font-size: 32px;
+    margin-left: 150px;
+    text-align: justify;
+    margin-left: 700px;
+    margin-top: -250px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0%;
+    font-size: 28px;
+    animation: mover-izquierda-derecha 20s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.il, ul {
+    list-style-type:disc;
+    animation: mover-izquierda-derecha 20s 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes mover-izquierda-derecha {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    }
+.peluqueria h3{
+    color:#881811;
+    font-size: 80px;
+    margin-left: -8px;
+font-weight: bold;
+font-family: "Anton", sans-serif;
+font-weight: 5;
+letter-spacing: 2px;
+margin-bottom: 0%;
+animation: mover-izquierda-derecha 20s 1;
+animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha {
+from {
+    transform: translateX(-100px);
+}
+to {
+    transform: translateX(10px);
+}
+}
+.dog3 img{
+width: 555px;
+margin-top: -700px;
+margin-left: -150px;
+}
+.trazado1 img{
+    width: 131.6%;
+    margin-left: -255px;
+}
+.consulta h5{
+    color:#881811;
+    font-size: 50px;
+    margin-top: -148px;
+    margin-left: 620px;
+    font-family: "Anton", sans-serif;
+font-weight: 5;
+}
+.footer {
+    background-image: url(../img/footer2.png);
+    padding: 115px 925px;
+    background-repeat: no-repeat;
+    margin-top: -20px;  
+    margin-left: -185px;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.logo1 img {
+    height: 100px;
+    align-content: center;
+    margin-left: -130px;
+}
+.redes img {
+    height: 70px;
+    margin-left: -50px;
+}
+footer p{
+    color: #848079;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -85px;
+}
+
+
+
